@@ -44,10 +44,10 @@ int main(int argc, char** argv) {
                         1.0, cv::Scalar(255, 0, 0), 2);  
         }  
 
-        // 显示当前帧  
+        // 当前帧  
         cv::imshow("QR Code Detection in Video", frame);  
 
-        // 按 'q' 键退出  
+        // 'q' 键退出  
         if(cv::waitKey(1) == 'q') break;  
     }  
 
